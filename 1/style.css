@@ -1,0 +1,7 @@
+.gridBox {
+    display: grid;
+    /* repeat: lặp 3 lần tương ứng 3 column 
+        mỗi col chiếm 1fr (1/3 size)  */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, auto);  /* 2 rows */
+}
