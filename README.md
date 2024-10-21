@@ -1,3 +1,6 @@
 # Animation-snippets_HCJ
 
-List of modules: <br> 3. Image Slicing Effect
+List of modules:
+
+3. Image Slicing Effect
+4. Circle Text on Mousemove
