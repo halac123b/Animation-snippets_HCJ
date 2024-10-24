@@ -4,4 +4,12 @@
         mỗi col chiếm 1fr (1/3 size)  */
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     grid-template-rows: repeat(2, auto);  /* 2 rows */
+    gap: 10px;
+    width: 100%;
 }
+
+.gridBox img {
+    width: 100%;  /* Make sure images scale to fill their grid cell */
+    height: auto; /* Keep aspect ratio */
+    display: block; /* Remove any inline spacing */
+  }
