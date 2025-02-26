@@ -13,3 +13,20 @@
     height: auto; /* Keep aspect ratio */
     display: block; /* Remove any inline spacing */
   }
+
+.gridItem {
+    overflow: hidden;
+}
+
+.gridItem img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in; /* Set tốc độ chuyển động của transition (giống Tween)*/
+}
+
+.gridItem img:hover {
+    transform: scale(1.3);
+}
